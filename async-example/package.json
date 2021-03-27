@@ -1,0 +1,20 @@
+{
+  "name": "async-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/ts-node test.ts",
+    "reptile": "ts-node ./src/reptile.ts",
+    "quicksort": "ts-node D:/Workspace/Workbook/text/intervew-ywh/async-example/src/QuickSort.ts",
+    "bstTree": "ts-node D:/Workspace/Workbook/text/intervew-ywh/async-example/src/bstTree.ts",
+    "hunrySingleton": "ts-node D:/Workspace/Workbook/text/intervew-ywh/async-example/src/hungrySingleton.ts",
+    "lazySingleton": "ts-node D:/Workspace/Workbook/text/intervew-ywh/async-example/src/lazySingleton.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^6.1.0",
+    "typescript": "^2.9.1"
+  }
+}
